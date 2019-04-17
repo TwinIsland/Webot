@@ -1,0 +1,9 @@
+# encoding:gbk
+
+import itchat
+import os
+
+
+def main(msg):
+    itchat.send('¿ªÊ¼Ö´ĞĞÃüÁî£º' + msg[5:], 'filehelper')
+    os.system(msg[5:])
